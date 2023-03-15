@@ -37,9 +37,9 @@ const Navbar = () => {
         <h2 className='flex sm:hidden cursor-pointer font-mono w-full font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>EF.dev</h2>
        
         <ul className='hidden md:flex'>
-          <li className='p-4 cursor-pointer'>Bio</li>
-          <li className='p-4 cursor-pointer'>Projects</li>
-          <li className='p-4 cursor-pointer'>Contact</li>
+          <li className='p-4 cursor-pointer font-semibold'>Bio</li>
+          <li className='p-4 cursor-pointer font-semibold'>Projects</li>
+          <li className='p-4 cursor-pointer font-semibold'>Contact</li>
         </ul>
       {/* BOTON DARK-MODE */}
       <button onClick={handleThemeSwitch} className="pl-2 pr-4">
