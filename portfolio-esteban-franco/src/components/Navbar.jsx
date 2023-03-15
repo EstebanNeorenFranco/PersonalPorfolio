@@ -32,8 +32,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className='sticky top-0 flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 md:px-20'>
-        <h1 className='cursor-pointer font-mono w-full font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>EstebanFranco.dev</h1>
+    <div className='sticky top-0 flex justify-between items-center h-24 max-w-screen mx-auto px-4 md:px-20'>
+        <h1 className='hidden sm:flex cursor-pointer font-mono w-full font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>EstebanFranco.dev</h1>
+        <h2 className='flex sm:hidden cursor-pointer font-mono w-full font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>EF.dev</h2>
+       
         <ul className='hidden md:flex'>
           <li className='p-4 cursor-pointer'>Bio</li>
           <li className='p-4 cursor-pointer'>Projects</li>

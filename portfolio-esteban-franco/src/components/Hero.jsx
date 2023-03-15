@@ -16,7 +16,7 @@ function Hero() {
       <div className='mx-auto text-center px-8 md:px-54 lg:px-80'>
         <div className='justify-center flex items-center space-x-2'>
           <p className=' font-sans text-lg font-semibold'>💻 I'm Esteban a web developer from Argentina</p>
-          <img src={flag} alt='Image not found' className='h-5 w-5'/>
+          
         </div>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, possimus voluptatem. Mollitia velit soluta quibusdam sit alias rem debitis eos ducimus numquam ipsam modi esse ullam, sed libero illum! Soluta?</p>
       </div>
