@@ -32,14 +32,15 @@ const Navbar = () => {
   };
 
   return (
-    <div className='sticky top-0 flex justify-between items-center h-24 max-w-screen mx-auto px-4 md:px-20'>
+    <div className='sticky bg-white shadow-sm from-white dark:bg-[#03001C] dark:shadow-gray-400 top-0 flex justify-between items-center h-24 max-w-screen mx-auto px-4 md:px-20'>
         <h1 className='hidden sm:flex cursor-pointer font-mono w-full font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>EstebanFranco.dev</h1>
         <h2 className='flex sm:hidden cursor-pointer font-mono w-full font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>EF.dev</h2>
        
         <ul className='hidden md:flex'>
-          <li className='p-4 cursor-pointer font-semibold'>Bio</li>
-          <li className='p-4 cursor-pointer font-semibold'>Projects</li>
-          <li className='p-4 cursor-pointer font-semibold'>Contact</li>
+          <li className='p-4 cursor-pointer font-semibold hover:text-gray-400 dark:fill-white dark:hover:fill-gray-400 transition-all duration-75 hover:transition-all hover:duration-700'>Bio</li>
+          <li className='p-4 cursor-pointer font-semibold hover:text-gray-400 dark:fill-white dark:hover:fill-gray-400 transition-all duration-75 hover:transition-all hover:duration-700'>Skills</li>
+          <li className='p-4 cursor-pointer font-semibold hover:text-gray-400 dark:fill-white dark:hover:fill-gray-400 transition-all duration-75 hover:transition-all hover:duration-700'>Projects</li>
+          <li className='p-4 cursor-pointer font-semibold hover:text-gray-400 dark:fill-white dark:hover:fill-gray-400 transition-all duration-75 hover:transition-all hover:duration-700'>Contact</li>
         </ul>
       {/* BOTON DARK-MODE */}
       <button onClick={handleThemeSwitch} className="pl-2 pr-4">
@@ -52,6 +53,7 @@ const Navbar = () => {
           <h2 className='font-mono w-full pt-10 font-extrabold text-transparent text-lg bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 pl-8'>EstebanFranco.dev</h2>
           <li className='p-4 cursor-pointer pt-10 border-b border-gray-600'>Home</li>
           <li className='p-4 cursor-pointer border-b border-gray-600'>Bio</li>
+          <li className='p-4 cursor-pointer border-b border-gray-600'>Skills</li>
           <li className='p-4 cursor-pointer border-b border-gray-600'>Projects</li>
           <li className='p-4 cursor-pointer'>Contact</li>
       </ul>
