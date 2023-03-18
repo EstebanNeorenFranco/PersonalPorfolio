@@ -1,25 +1,26 @@
 import React from 'react'
 import esteban from '../images/esteban.jpg'
-import flag from '../images/argentina.png' 
-
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function Hero() {
   return (
     
-    <div className=' py-16 pb-36 '>
+    <div className='py-10'>
       <div className='px-14 flex '>
-        <div className=' mx-auto text-center '>
+        <div className=' mx-auto text-center py-6 '>
           <img src={esteban} alt='Image not found' className='rounded-full h-44'/>
           <h4 className='py-8 font-sans font-semibold text-2xl'>Hi! 🖐🏻</h4>
         </div>
       </div>
-      <div className=' pt-4 pb-10 mx-auto text-center px-8 md:px-54 lg:px-80'>
+      <div className='pt-3 mx-auto text-center px-8 md:px-54 lg:px-80'>
         <div className='justify-center flex items-center space-x-2'>
-          <p className=' font-sans text-lg font-semibold'>💻 I'm Esteban a web developer from Argentina</p>
+          <p className=' font-sans font-semibold text-lg dark:text-gray-100'>💻 I'm Esteban, a programmer especialising in <span className=' font-bold dark:text-white'>Full Stack development</span></p>
         </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, possimus voluptatem. Mollitia velit soluta quibusdam sit alias rem debitis eos ducimus numquam ipsam modi esse ullam, sed libero illum! Soluta?</p>
-        
-      </div>
+          <p className='pt-2 p- text-gray-800 dark:text-gray-200'>Argentina, Ciudad Autonoma de Buenos Aires</p>
+          <div className='pt-36'>
+              <KeyboardArrowDownIcon className='animate-ping duration-1000'/>
+          </div>
+          </div>
     </div>
   )
 }
