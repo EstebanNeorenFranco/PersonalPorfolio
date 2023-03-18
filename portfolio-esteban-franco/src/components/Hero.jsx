@@ -6,7 +6,7 @@ import flag from '../images/argentina.png'
 function Hero() {
   return (
     
-    <div className=' py-20 pb-36 '>
+    <div className=' py-16 pb-36 '>
       <div className='px-14 flex '>
         <div className=' mx-auto text-center '>
           <img src={esteban} alt='Image not found' className='rounded-full h-44'/>
