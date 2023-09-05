@@ -1,10 +1,10 @@
 import React from 'react'
-import css from '../images/css.png'
-import js from '../images/js.png'
-import tailwind from '../images/tailwind.png'
-import react from '../images/react.png'
-import python from '../images/python.png'
-import mongoDB from '../images/mongoDB.png'
+import css from '../img/css.png'
+import js from '../img/js.png'
+import tailwind from '../img/tailwind.png'
+import react from '../img/react.png'
+import python from '../img/python.png'
+import sql from '../img/sql.png'
 
 function Skills() {
   return (
@@ -32,7 +32,7 @@ function Skills() {
             </div>
             
             <div className='w-24'>
-                <img src={mongoDB} alt="tensorflow" className=' w-auto h-auto'/>
+                <img src={sql} alt="sql" className=' w-auto h-auto'/>
             </div>
         </div>
         <div className='justify-center sm:hidden space-y-10 pb-12 object-center'>
@@ -44,7 +44,7 @@ function Skills() {
             <div className='flex space-x-12 items-cente justify-center'>
             <div className='w-28'><img src={tailwind} alt="tailwind" className=' w-auto h-auto'/></div>
                 <div className='w-24'><img src={python} alt="python" className=' w-auto h-auto'/></div>
-                <div className='w-24'><img src={mongoDB} alt="tensorflow" className=' w-auto h-auto'/></div>
+                <div className='w-24'><img src={sql} alt="sql" className=' w-auto h-auto'/></div>
             </div>
         </div>
       </div>

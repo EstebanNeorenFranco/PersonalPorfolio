@@ -1,5 +1,5 @@
 import React from 'react'
-import esteban from '../images/esteban.jpg'
+import esteban from '../img/esteban.jpg'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function Hero() {
