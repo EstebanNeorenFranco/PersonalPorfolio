@@ -5,6 +5,7 @@ import Bio from "./components/Bio";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+import LanguageSelector from "./components/LanguageSelector";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Bio/>
       <Projects/>
       <Footer/>
-      
+      <LanguageSelector/>
       
     </div>
   );
